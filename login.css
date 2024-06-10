@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Contactform {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 45vw;
+    height: 70vh;
+  }
+  
+  .Contactform h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Contactform form {
+    margin: 10px;
+    padding: 30px;
+  }
+  .form-box {
+    margin-bottom: 10px;
+  }
+  form input {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  button {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  
